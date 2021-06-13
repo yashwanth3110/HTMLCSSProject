@@ -53,6 +53,9 @@ body{
     margin: 20px 0;
 
 }
+.explore_menu_container{
+    margin-top: 50px;
+}
 .explore_menu_text{
     font-size: 30px;
     color: #1d3557;
@@ -61,6 +64,7 @@ body{
 
 
 }
+
 .food_menu_card{
     width: 100%;
     background-color: #fff;
@@ -73,6 +77,10 @@ body{
 }
 .food_menu_card_description{
     padding: 20px;
+}
+.explore_menu_view_more{
+    display: flex;
+    justify-content: center;
 }
 @media (min-width: 768px){
     .navbar{
