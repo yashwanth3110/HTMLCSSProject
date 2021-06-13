@@ -42,10 +42,14 @@ body{
     width: 100%;
 }
 .hero_image_container{
+    
     width: 100%;
+    
 }
+
 .hero_image{
     width: 100%;
+    margin-bottom: 20px;
 }
 .hero_text{
     font-size: 30px;
