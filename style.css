@@ -19,6 +19,7 @@ body{
       padding: 12px;
       border: none;
       border-radius: 6px;
+      cursor: pointer;
 
 }
 .container{
@@ -46,6 +47,33 @@ body{
 .hero_image{
     width: 100%;
 }
+.hero_text{
+    font-size: 30px;
+    color: #1d3557;
+    margin: 20px 0;
+
+}
+.explore_menu_text{
+    font-size: 30px;
+    color: #1d3557;
+    margin: 20px 0;
+    text-align: center;
+
+
+}
+.food_menu_card{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.food_image{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.food_menu_card_description{
+    padding: 20px;
+}
 @media (min-width: 768px){
     .navbar{
         justify-content: space-between;
@@ -56,7 +84,7 @@ body{
         width: 150px;
     }
     .button_primary{
-        padding: 20px;
+        padding: 12px 20px;
         font-size: 20px;
     }
     .hero_container{
@@ -73,12 +101,9 @@ body{
         width: 150px;
     }
     .container{
-        max-width: 1010px;
+        max-width: 900px;
     }
-    .hero_image_container{
-        width: 500px;
-        height: 500px;
-    }
+    
   
 
 }
@@ -86,6 +111,9 @@ body{
     .navbar{
         justify-content: space-between;
         padding: 10px 20px;
+    }
+    .container{
+        max-width: 1250px;
     }
 
 }
