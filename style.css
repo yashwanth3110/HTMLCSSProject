@@ -101,6 +101,41 @@ body{
       z-index: -3;
       transform: skewY(-5deg);
 }
+.restaurants_description{
+    font-size: 30px;
+    color: #1d3557;
+    margin: 20px 0;
+    text-align: center;
+
+}
+.restaurants_flex_row_one, .restaurants_flex_row_two{
+    width: 100%;
+    display: flex;
+    gap: 4px;
+}
+
+.restaurants_flex_row_one{
+    align-items: baseline;
+    margin-bottom: 4px;
+}
+
+.restaurant_1_image,
+.restaurant_2_image,
+.restaurant_3_image,
+.restaurant_4_image{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.restaurant_1, .restaurant_4{
+    width: 100%;
+    height: 150px;
+
+}
+.restaurant_2, .restaurant_3{
+    width: 120%;
+    height: 200px;
+}
 @media (min-width: 768px){
     .navbar{
         justify-content: space-between;
@@ -130,6 +165,19 @@ body{
         margin-top: -20px;
         margin-bottom: 30px;
     }
+   .restaurants_description{
+       font-size: 40px;
+       width: 100%;
+   }
+   .restaurants_container{
+       display: flex;
+       align-items: center;
+   }
+   .restaurants_flex{
+       width: 100%;
+      
+   }
+
 
 }
 @media (min-width: 1020px){
@@ -145,6 +193,9 @@ body{
     }
     .explore_menu_text{
         font-size: 50px;
+    }
+    .restaurants_container{
+        margin-top: 30px;
     }
     
   
