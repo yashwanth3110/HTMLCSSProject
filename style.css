@@ -42,14 +42,23 @@ body{
     width: 100%;
 }
 .hero_image_container{
+    position: relative;
     
     width: 100%;
     
 }
+.hero_image_shape{
+    position: absolute;
+    z-index: -2;
+    right: 2;
+   
+}
 
 .hero_image{
+    position: absolute;
     width: 100%;
     margin-bottom: 20px;
+    border-radius: 6px;
 }
 .hero_text{
     font-size: 30px;
@@ -140,6 +149,30 @@ body{
     width: 120%;
     height: 200px;
 }
+.email_container{
+    margin-top: 3rem;
+    width: 100%;
+    padding: 15px;
+    
+    align-items: center;
+}
+.email_heading{
+    font-size: 30px;
+    color: #1d3557;
+    
+}
+.email_input_field{
+    display: flex;
+    align-items: center;
+}
+.email_input{
+    border: 1px solid #ee89a0;
+  background-color: #fcedf0;
+  color: #1d3557;
+  font-weight: 700;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
 @media (min-width: 768px){
     .navbar{
         justify-content: space-between;
@@ -180,6 +213,13 @@ body{
    .restaurants_flex{
        width: 100%;
       
+   }
+   .email_container{
+       display: flex;
+       justify-content: center;
+   }
+   .email_input{
+       width: 15rem;
    }
 
 
